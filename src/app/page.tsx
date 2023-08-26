@@ -4,7 +4,6 @@ import Hero from "@/views/Hero";
 import ProductList from "@/views/ProductList";
 import StripeCheckOutButton from "@/components/Checkout";
 import Hero1 from "@/views/Hero1";
-import FeatureProducts from "@/views/FeatureProducts";
 import DesignerHero from "@/views/DesingerHero";
 import NewsLetter from "@/views/NewsLetter";
 import Footer from "@/components/layout/Footer";
@@ -20,10 +19,9 @@ export default function Home() {
 
       <Hero />
       <Hero1 />
-      <FeatureProducts />
       <DesignerHero />
-      <NewsLetter />
       <ProductList />
+      <NewsLetter />
     </div>
   );
 }

@@ -1,7 +1,5 @@
 import ProductCard from "@/components/ProductCard";
-import P1 from "public/p1.webp";
 import React from "react";
-import { Products } from "@/utils/mock";
 import { StaticImageData } from "next/image";
 import { client } from "@/lib/sanityClient";
 import { Image as IImage } from "sanity";

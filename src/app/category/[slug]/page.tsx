@@ -1,6 +1,4 @@
 import ProductCard from "@/components/ProductCard";
-import { Products } from "@/utils/mock";
-import { Product } from "@/utils/types";
 import { StaticImageData } from "next/image";
 import Link from "next/link";
 import { client } from "@/lib/sanityClient";
@@ -15,11 +13,6 @@ interface Iproduct {
   image: IImage;
   catagoryName: string;
 }
-
-const getPrdouctsByCategory = (category: string) => {
-  const productData = Products.filter((item) => item.category === category);
-  return productData;
-};
 
 const getProductDatabyCatagory = async (catagory: string) => {
   if (catagory == "all") {

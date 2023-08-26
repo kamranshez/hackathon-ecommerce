@@ -1,5 +1,4 @@
 import Quantity from "@/components/Quantity";
-import { Products } from "@/utils/mock";
 import { StaticImageData } from "next/image";
 import Image from "next/image";
 import { client } from "@/lib/sanityClient";
